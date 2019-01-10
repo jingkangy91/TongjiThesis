@@ -33,7 +33,7 @@
 \subsubsection{效果1}
 
 \begin{equation}
-	E = m c^2
+  E = m c^2
 \end{equation}
 其中$E$表示……
 
@@ -44,40 +44,40 @@
 图~\ref{fig:logo}~是我们的校徽和校名，也出现在了本论文模板的封面上。Latex本身有subfigure的命令，但我觉得这个不如用表格来管理图片方便，直观。
 
 \begin{figure}[htb!]
-	\centering
-	\includegraphics[width=0.5\textwidth]{tongji-whole-logo.eps}
-	\caption{校徽和校名}
-	\label{fig:logo}
+  \centering
+  \includegraphics[width=0.5\textwidth]{tongji-whole-logo.pdf}
+  \caption{校徽和校名}
+  \label{fig:logo}
 \end{figure}
 
 \subsubsection{效果2}
 
 \begin{figure}[htb!] 
-	\centering 
-	\begin{tabular}{cc} 
-		\includegraphics[width=0.45\textwidth]{tongji-whole-logo.eps} & \includegraphics[width=0.45\textwidth]{tongji-whole-logo.eps}\\ 
-		(a)图1 & (b)图2
-	\end{tabular} 
-	\caption{同济大学} 
-	\label{fig:subimage} 
+  \centering 
+  \begin{tabular}{cc} 
+    \includegraphics[width=0.45\textwidth]{tongji-whole-logo.pdf} & \includegraphics[width=0.45\textwidth]{tongji-whole-logo.pdf}\\ 
+    (a)图1 & (b)图2
+  \end{tabular} 
+  \caption{同济大学} 
+  \label{fig:subimage} 
 \end{figure}
 
 \subsubsection{效果3}
 
 \begin{figure}[htb!] 
-	\noindent 
-	\begin{minipage}[t]{.48\linewidth} 
-		\centering 
-			\includegraphics[width=0.9\textwidth]{tongji-whole-logo.eps} 
-		\caption{图1} 
-		\label{fig:quadratic} 
-	\end{minipage} 
-	\begin{minipage}[t]{.48\linewidth} 
-		\centering 
-		\includegraphics[width=0.9\textwidth]{tongji-whole-logo.eps} 
-			\caption{图2} 
-		\label{fig:triorder} 
-	\end{minipage} 
+  \noindent 
+  \begin{minipage}[t]{.48\linewidth} 
+    \centering 
+      \includegraphics[width=0.9\textwidth]{tongji-whole-logo.pdf} 
+    \caption{图1} 
+    \label{fig:quadratic} 
+  \end{minipage} 
+  \begin{minipage}[t]{.48\linewidth} 
+    \centering 
+    \includegraphics[width=0.9\textwidth]{tongji-whole-logo.pdf} 
+      \caption{图2} 
+    \label{fig:triorder} 
+  \end{minipage} 
 \end{figure}
 
 \subsection{添加表}
@@ -85,19 +85,19 @@
 不用在意表~\ref{tab:events}~展示的内容，它只是个示例。
 
 \begin{table}[htb!]
-  	\centering
-  	\caption{Add caption}
-  	\label{tab:events}
+    \centering
+    \caption{Add caption}
+    \label{tab:events}
     \begin{tabular}{?c"c?}
-	    \thickhline
-	    a     & b \bigstrut\\
-	    \thinhline
-		第一列   & 第二列 \bigstrut\\
-	    \thinhline
-	    第一列   & 第二列 \bigstrut\\
-	    \thinhline
-	    第一列   & 第二列 \bigstrut\\
-	    \thickhline
+      \thickhline
+      a     & b \bigstrut\\
+      \thinhline
+    第一列   & 第二列 \bigstrut\\
+      \thinhline
+      第一列   & 第二列 \bigstrut\\
+      \thinhline
+      第一列   & 第二列 \bigstrut\\
+      \thickhline
     \end{tabular}%
   \label{tab:addlabel}
 \end{table}

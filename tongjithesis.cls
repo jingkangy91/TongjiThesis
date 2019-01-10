@@ -626,7 +626,7 @@
       \iftongji@electronic{{\kai\xiaosi\tongji@thesistype （打印时删除）}}\else\rule{1cm}{0cm}\fi}\\[-.9cm] %TODO:需要伪斜体？
     \parbox[t][1.8cm][t]{\textwidth}{%
     \centering\hspace*{.3cm}
-    \includegraphics[width=10cm]{tongji-whole-logo.eps}}\\[-.6cm] % logo
+    \includegraphics[width=10cm]{tongji-whole-logo.pdf}}\\[-.6cm] % logo
     \parbox[t][9cm][t]{\paperwidth-7cm}{ 
       \renewcommand{\baselinestretch}{1}
       \begin{center}
@@ -676,7 +676,7 @@
     \vspace*{0.5cm} 
     \parbox[t][1.8cm][t]{\textwidth}{%
     \centering\hspace*{.3cm}
-    \includegraphics[width=10cm]{tongji-whole-logo.eps}}\\[-.6cm] % logo
+    \includegraphics[width=10cm]{tongji-whole-logo.pdf}}\\[-.6cm] % logo
     \vspace*{0.3cm}
     \parbox[t][9cm][t]{\paperwidth-6cm}{
       \renewcommand{\baselinestretch}{1}
